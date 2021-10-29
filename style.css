@@ -1,0 +1,97 @@
+*{
+    margin: 50;
+    padding: 50;
+}
+body{
+    background-image: url(../css1/image.jpg);
+    border: ridge green;
+
+}
+.container{
+    /* border:5px solid red; */
+    border-radius: 2px;
+    
+    display: flex;
+    
+}
+.box{
+    display: flex;
+    border:5px solid  rgb(192, 7, 7);
+    margin: 20px;
+    border-radius: 30px;
+    height: 30%;
+    width: 30%;
+    background-color: black;
+    text-align: center; 
+    justify-content: center;  
+}
+p{
+    color: white;
+    margin-left: 10%;
+    margin-top: 1%;
+
+}
+.circle{
+    border: 7px solid gray;
+    /* border-style: solid; */
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
+    background-color: turquoise;
+    
+    display: inline-block;
+   justify-content: center;
+    margin-right: 200px;
+    padding-top: 2px;
+    text-align: center;
+
+}
+.menu{
+    border:5px solid rgb(192, 7, 7);
+    margin: 20px;
+    border-radius: 30px;
+    height: 30%;
+    width: 30%;
+    background-color: black;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+    margin-bottom: 50px;
+    display: flex;
+     
+}
+ .box1{ 
+    border: 5px solid green;
+    margin: 15px;
+    border-radius: 15px;
+    width: 30%;
+    height: 30%;
+    display: inline-block;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(40, 177, 182);
+    margin-right: 20px;
+    margin-bottom: 5px;
+  
+}
+h4,h2{
+    text-align: center;
+}
+.dotted{
+    border-style: dashed;
+    border-color: red;
+    color: red;
+    height: 30%;
+    width: 20%;
+    display: inline-block;
+    text-align: center;
+    justify-content: center;
+}
+h2,h5{
+    color: red;
+
+}
+.name{
+    color: red;
+}
+    
